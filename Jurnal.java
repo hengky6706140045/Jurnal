@@ -20,7 +20,7 @@ public class Jurnal {
         // TODO code application logic here
         int a=0;
         int b=1;
-        int hasil=0,c;
+        int hasil=0,c,jum=0;
         Scanner input = new Scanner (System.in);
         
         System.out.print ("Input  : ");
@@ -28,13 +28,13 @@ public class Jurnal {
         for(int i=1; i<=c; i++){           
             a=b;
             b=hasil;
-            System.out.print(hasil+" ");
+         //   System.out.print(hasil+" ");
             hasil=a+b;
+            //pertambahan
+            jum=jum+hasil;
         }
-        //pertambahan
-        for(int i=1; i<c; i++){
-            
-        }
+    System.out.println(jum);
+        
     }
     
 }
